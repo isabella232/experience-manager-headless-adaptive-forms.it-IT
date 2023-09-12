@@ -10,8 +10,8 @@ hide: false
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 49%
+source-wordcount: '1230'
+ht-degree: 65%
 
 ---
 
@@ -61,19 +61,19 @@ Per creare un modulo adattivo utilizzando l’editor di Forms adattivo è necess
 
 1. Accedi al tuo [!DNL Experience Manager Forms] Istanza Autore.
 
-1. Inserisci le credenziali nella pagina di accesso di Experience Manager. Dopo aver effettuato l’accesso, nell’angolo in alto a sinistra tocca **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. Inserisci le credenziali nella pagina di accesso di Experience Manager. Dopo aver effettuato l’accesso, nell’angolo in alto a sinistra tocca **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Moduli]** > **[!UICONTROL Moduli e documenti]**.
 
-1. Tocca **[!UICONTROL Create]**  > **[!UICONTROL Adaptive Forms]**. Viene aperta la procedura guidata. Nella scheda Sorgente, seleziona un modello:
+1. Tocca **[!UICONTROL Crea]**  > **[!UICONTROL Moduli adattivi]**. Viene aperta la procedura guidata. Nella scheda Sorgente, seleziona un modello:
 
    ![Modello](/help/assets/core-components-template.png)
 
-   Quando selezioni un modello, viene selezionato automaticamente un tema e un’azione di invio specificati nel modello, e il **[!UICONTROL Create]** è attivato. È possibile passare al **[!UICONTROL Style]** o **[!UICONTROL Submission]** per selezionare un tema diverso o un’azione di invio diversa. Se il modello selezionato non specifica un tema, il pulsante Crea rimane disabilitato. È possibile passare al **[!UICONTROL Styles]** per selezionare manualmente un tema.
+   Quando selezioni un modello, vengono selezionati automaticamente un tema e un’azione di invio specificati nel modello, mentre viene abilitato il pulsante **[!UICONTROL Crea]**. È possibile passare alle schede **[!UICONTROL Stile]** o **[!UICONTROL Invio]** per selezionare un tema o un’azione di invio diversi. Se il modello selezionato non specifica un tema, il pulsante Crea rimane disabilitato. È possibile passare alla scheda **[!UICONTROL Stili]** per selezionare manualmente un tema.
 
-1. In **[!UICONTROL Style]** , selezionare un tema:
+1. Nella scheda **[!UICONTROL Stile]**, seleziona un tema:
 
    * Quando il modello selezionato specifica un tema, lo stesso viene selezionato automaticamente nella procedura guidata. È possibile inoltre scegliere un tema diverso dalla scheda Stile.
 
-   * Se il modello selezionato non specifica un tema, è possibile utilizzare la scheda Stile per sceglierne uno. Il **[!UICONTROL Create]** viene attivato solo dopo la selezione di un tema.
+   * Se il modello selezionato non specifica un tema, è possibile utilizzare la scheda Stile per sceglierne uno. Il pulsante **[!UICONTROL Crea]** viene abilitato solo dopo la selezione di un tema.
 
 1. (Facoltativo) Nella scheda Dati, seleziona un modello dati:
 
@@ -83,21 +83,21 @@ Per creare un modulo adattivo utilizzando l’editor di Forms adattivo è necess
 
    Per impostazione predefinita, tutti i campi dello schema JSON associato vengono selezionati e convertiti automaticamente nei componenti corrispondenti del modulo adattivo, semplificando il processo di authoring. La procedura guidata offre l’ulteriore comodità di consentire la scelta selettiva dei campi da includere nel modulo adattivo tramite l’utilizzo di caselle di controllo.
 
-1. In **[!UICONTROL Submission]** , seleziona un’azione di invio:
+1. Nella scheda **[!UICONTROL Invio]**, seleziona un’azione di invio:
 
-   * Quando selezioni un modello, l’azione di invio specificata in quel modello viene selezionata automaticamente. Dalla scheda Invio puoi selezionare un’azione di invio diversa. Il **[!UICONTROL  Submission]** visualizza tutte le azioni di invio disponibili.
+   * Quando selezioni un modello, l’azione di invio specificata in quel modello viene selezionata automaticamente. Dalla scheda Invio puoi selezionare un’azione di invio diversa. La scheda **[!UICONTROL Invio]** mostra tutte le azioni di invio disponibili.
 
-   * Se nel modello selezionato non è specificata un&#39;azione di invio, è possibile utilizzare **[!UICONTROL Submission]** per selezionare un’azione di invio
+   * Se nel modello selezionato non è specificata un’azione di invio, è possibile utilizzare la scheda **[!UICONTROL Invio]** per selezionarne una.
 
-1. (Facoltativo) In **[!UICONTROL Delivery]** , è possibile specificare una data di pubblicazione o di annullamento della pubblicazione per un modulo adattivo.
+1. (Facoltativo) Nella scheda **[!UICONTROL Consegna]**, è possibile specificare una data di pubblicazione o di annullamento della pubblicazione per un modulo adattivo.
 
-1. Tocca **[!UICONTROL Create]**. Viene visualizzata una finestra di dialogo che specifica il titolo, il nome e la posizione in cui salvare il modulo adattivo:
+1. Tocca **[!UICONTROL Crea]**. Viene visualizzata una finestra di dialogo che specifica il titolo, il nome e la posizione in cui salvare il modulo adattivo:
 
-   * **[!UICONTROL Title]** Specifica il nome visualizzato del modulo. Il titolo consente di identificare il modulo nell’interfaccia utente di [!DNL Experience Manager Forms].
-   * **[!UICONTROL Name:]** Specifica il nome del modulo. Nell’archivio viene creato un nodo con il nome specificato. Quando si inizia a digitare un titolo, il valore del campo nome viene generato automaticamente. Puoi modificare il valore suggerito. Il campo nome può contenere solo caratteri alfanumerici, trattini e caratteri di sottolineatura. Tutti gli input non validi vengono sostituiti da un trattino.
-   * **[!UICONTROL Path:]** Specifica la posizione in cui deve essere salvato il modulo adattivo. Puoi salvare il modulo adattivo direttamente all’indirizzo `/content/dam/formsanddocuments` o creare una cartella di salvataggio come `/content/dam/formsanddocuments/adaptiveforms`. Assicurati di creare la cartella prima di utilizzarla nel percorso. Il **[!UICONTROL Path]** non crea automaticamente una cartella.
+   * **[!UICONTROL Titolo]**: specifica il nome visualizzato del modulo. Il titolo consente di identificare il modulo nell’interfaccia utente di [!DNL Experience Manager Forms].
+   * **[!UICONTROL Nome:]** specifica il nome del modulo. Nell’archivio viene creato un nodo con il nome specificato. Quando si inizia a digitare un titolo, il valore del campo nome viene generato automaticamente. Puoi modificare il valore suggerito. Il campo nome può contenere solo caratteri alfanumerici, trattini e caratteri di sottolineatura. Tutti gli input non validi vengono sostituiti da un trattino.
+   * **[!UICONTROL Percorso:]** specifica la posizione in cui salvare il modulo adattivo. Puoi salvare il modulo adattivo direttamente all’indirizzo `/content/dam/formsanddocuments` o creare una cartella di salvataggio come `/content/dam/formsanddocuments/adaptiveforms`. Assicurati di creare la cartella prima di utilizzarla nel percorso. Il campo **[!UICONTROL Percorso]** non crea cartelle automaticamente.
 
-1. Tocca **[!UICONTROL Create]**. Viene creato un modulo adattivo che viene aperto nell’editor di moduli adattivi. L’editor mostra i contenuti disponibili nel modello.  In base al tipo di modulo adattivo, gli elementi del modulo presenti nel <!--XFA form template, XML schema or --> Lo schema JSON o il modello dati del modulo vengono visualizzati nel **[!UICONTROL Data Model Objects]** scheda di **[!UICONTROL Content Browser]** nella barra laterale. Puoi anche trascinare questi elementi per creare il modulo adattivo.
+1. Tocca **[!UICONTROL Crea]**. Viene creato un modulo adattivo che viene aperto nell’editor di moduli adattivi. L’editor mostra i contenuti disponibili nel modello.  In base al tipo di modulo adattivo, gli elementi del modulo presenti nello schema <!--XFA form template, XML schema or --> JSON associato o nel modello di dati del modulo vengono visualizzati nella scheda **[!UICONTROL Oggetti modello di dati]** del **[!UICONTROL Browser contenuti]** nella barra laterale. Puoi anche trascinare questi elementi per creare il modulo adattivo.
 
 Ora è possibile trascinare i componenti di Forms adattivo nel contenitore di Forms adattivo per progettare e creare il modulo.
 
