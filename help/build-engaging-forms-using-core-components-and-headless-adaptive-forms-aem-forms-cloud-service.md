@@ -4,17 +4,15 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Creare moduli efficaci utilizzando i componenti core e headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 90%
+source-wordcount: '2452'
+ht-degree: 86%
 
 ---
 
-# Creare moduli efficaci utilizzando i componenti core e headless Forms adattivo su AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# Creare Forms coinvolgenti utilizzando componenti core e Forms adattivo headless su AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Panoramica del workshop {#lab-overview}
 
@@ -36,7 +34,7 @@ Per usare queste mani sul laboratorio:
 
 * Installare [ultima versione di Git](https://git-scm.com/downloads). Se hai poca esperienza con Git, consulta [Installazione di Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installa [Node.js 16.13.0 o versione successiva](https://nodejs.org/it/download/). Se hai poca esperienza con Node.js, consulta [Come installare Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Installa [Node.js 16.13.0 o versione successiva](https://nodejs.org/it/download/). Se hai poca esperienza con Node.js, consulta [Come installare Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Abilita componenti core Forms adattivi](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) per l’ambiente as a Cloud Service AEM Forms.
 
@@ -59,15 +57,16 @@ In questa lezione imparerai a conoscere l’ambiente di AEM Forms as a Cloud Ser
 1. Apri il browser e immetti l’URL dell’ambiente di authoring di Cloud Service. Ad esempio:
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1. Accedi all’ambiente di authoring di Cloud Service.
+1. Accedi all’ambiente di authoring del Cloud Service.
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Per accedere all’interfaccia utente di AEM Forms, fai clic su **Forms > Forms e documenti**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
-   Ignora eventuali messaggi a comparsa relativi a preferenze o informazioni. Vengono visualizzati tutti i moduli disponibili.
+   Ignora eventuali popup relativi a preferenze o informazioni. Vengono visualizzati tutti i moduli disponibili.
 
 
 ## Lezione 2
@@ -225,6 +224,13 @@ Configurazione dell’archivio locale del tema:
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. Creare un utente locale nell’ambiente AEM.
+
+   >[!NOTE]
+   > Per creare un utente locale:
+   > Vai a `AEM Home` > `Tools` > `Security` > `Users`
+   > Assicurati che l’utente sia membro del gruppo forms-users.
+
 
 1. Nella finestra del prompt dei comandi esegui il comando seguente:
 
@@ -247,7 +253,10 @@ Configurazione dell’archivio locale del tema:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Una volta eseguito il comando precedente, attendi il messaggio `webpack compiled`. Il modulo viene visualizzato in una scheda del browser.
+   Una volta eseguito il comando precedente, attendere che `webpack compiled` viene reindirizzato a una pagina di accesso AEM.
+
+1. Clic **Accesso locale (solo attività amministratore)** nella pagina di accesso dell’AEM.
+1. Immettere le credenziali per l&#39;utente locale creato e il modulo verrà visualizzato in una scheda del browser.
 
    >[!NOTE]
    >
