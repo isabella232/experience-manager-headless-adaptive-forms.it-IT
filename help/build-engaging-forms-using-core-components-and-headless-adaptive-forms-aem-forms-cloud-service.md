@@ -5,10 +5,10 @@ description: Creare moduli efficaci utilizzando i componenti core e headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -84,9 +84,9 @@ In questa lezione, in qualità di utente aziendale, verrà creato un modulo adat
 1. Crea un endpoint di invio per il modulo:
 
    1. Apri <https://requestbin.com/> in una nuova scheda del browser.
+   1. Fai clic su **Crea un bin pubblico** e copia l’URL dell’endpoint.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Fai clic su **Crea un bin pubblico** e copia l’URL dell’endpoint.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. Crea un modulo adattivo utilizzando l’interfaccia della procedura guidata:
@@ -103,8 +103,7 @@ In questa lezione, in qualità di utente aziendale, verrà creato un modulo adat
    1. Fai clic sulla scheda **Stile** e seleziona il tema **wknd-theme** come mostrato di seguito:
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Fai clic sulla scheda **Invio** e seleziona la scheda **Invia a endpoint REST** e specifica il bin pubblico nel
-      campo **URL della richiesta POST** come illustrato di seguito:
+   1. Fai clic su **Invio** e seleziona la scheda **Invia a endpoint REST** e specificare il raccoglitore pubblico nel **URL per la richiesta POST** come mostrato di seguito:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Fai clic su **Crea**. Specifica un nome e un titolo per il modulo. Ad esempio: **registrazione**. Fai clic su **Crea**.
@@ -115,10 +114,6 @@ In questa lezione, in qualità di utente aziendale, verrà creato un modulo adat
    1. Trascina i componenti dal browser Componenti per creare un modulo simile al seguente:
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. Aggiungi convalide al modulo:
 
@@ -242,7 +237,7 @@ Configurazione dell’archivio locale del tema:
 
    >[!NOTE]
    >
-   > * Se ricevi un messaggio che chiede di aggiornare npm tramite il comando `npm notice Run npm nstall -g npm@9.6.0`, ignora il messaggio.
+   > * Se ricevi un messaggio che richiede di aggiornare npm tramite `npm notice Run npm nstall -g npm@9.6.0` ignorare il messaggio.
    > * Non eseguire altri comandi npm a meno che non sia indicato nella cartella di lavoro.
 
 1. Ora, per visualizzare l’anteprima del modulo, esegui il comando seguente.
