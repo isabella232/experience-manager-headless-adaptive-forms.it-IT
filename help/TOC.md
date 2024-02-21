@@ -5,10 +5,10 @@ user-guide-description: Documentazione per i moduli adattivi headless Adobe Expe
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
+source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,12 @@ ht-degree: 5%
 # Moduli adattivi headless Adobe Experience Manager {#using}
 
 + [Panoramica](overview.md)
++ [Panoramica Test](overview-testing.md)
 + [Architettura](architecture.md)
 + Impostazione rapida {#quick-setup}
    + [Abilitare Headless Adaptive Forms sul Forms AEM 6.5](enable-headless-adaptive-forms-and-core-components.md)
    + [Abilitare Headless Adaptive Forms su AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
-+ Tutorial {#tutorial}
++ Esercitazione {#tutorial}
    + [Creare Forms coinvolgenti utilizzando componenti core e Forms adattivo headless su AEM Forms as a Cloud Service](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
    + [Costruire Forms coinvolgenti utilizzando componenti core e headless Forms adattivo su AEM 6.5 Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
 + Introduzione all’uso del kit di avvio{#get-started}
